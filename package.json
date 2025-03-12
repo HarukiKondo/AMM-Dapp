@@ -7,10 +7,15 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
-    "pkgs/*"
+    "packages/*"
   ],
   "scripts": {
+    "format": "npx prettier --write .",
     "frontend": "yarn workspace frontend",
     "backend": "yarn workspace backend"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8",
+    "prettier-plugin-solidity": "^1.4.2"
   }
 }
