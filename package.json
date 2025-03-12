@@ -1,0 +1,16 @@
+{
+  "name": "AMM-Dapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "",
+  "author": "",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "pkgs/*"
+  ],
+  "scripts": {
+    "frontend": "yarn workspace frontend",
+    "backend": "yarn workspace backend"
+  }
+}
