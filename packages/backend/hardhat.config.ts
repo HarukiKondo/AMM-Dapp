@@ -11,9 +11,7 @@ const config: HardhatUserConfig = {
       url: "https://api.avax-test.network/ext/bc/C/rpc",
       chainId: 43113,
       accounts:
-        process.env.TEST_ACCOUNT_PRIVATE_KEY !== undefined
-          ? [process.env.TEST_ACCOUNT_PRIVATE_KEY]
-          : [],
+        process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
     },
   },
 };

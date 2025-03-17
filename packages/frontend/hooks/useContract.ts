@@ -8,6 +8,7 @@ import { JOEToken as JoeContractType } from "../typechain-types";
 import { AMM as AmmContractType } from "../typechain-types";
 import { getEthereum } from "../utils/ethereum";
 
+// 自分でコントラクトをデプロイした場合は、この3つの値を書き換える。
 export const UsdcAddress = "0x045aa885e04dab32316eA0B39Cda9c966A5d9845";
 export const JoeAddress = "0xF51E4C9D1b09df0bE1Bad943cEa2F124d9947034";
 export const AmmAddress = "0x7A11376BA156144117aD48940AaE86053e642321";
