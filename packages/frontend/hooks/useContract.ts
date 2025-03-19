@@ -9,9 +9,9 @@ import { AMM as AmmContractType } from "../typechain-types";
 import { getEthereum } from "../utils/ethereum";
 
 // 自分でコントラクトをデプロイした場合は、この3つの値を書き換える。
-export const UsdcAddress = "0x045aa885e04dab32316eA0B39Cda9c966A5d9845";
-export const JoeAddress = "0xF51E4C9D1b09df0bE1Bad943cEa2F124d9947034";
-export const AmmAddress = "0x7A11376BA156144117aD48940AaE86053e642321";
+export const UsdcAddress = "0x3815febBf609F5a01deB506679cCfFf8bF4efD4B";
+export const JoeAddress = "0xabD4fA779aAf42d2fee9d321Cd1Fce8174311468";
+export const AmmAddress = "0x180DB38AF140d2fC3aA99BC13D1E3B3fD30EcFc9";
 
 export type TokenType = {
   symbol: string;
